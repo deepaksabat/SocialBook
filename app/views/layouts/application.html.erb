@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Social Book</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <%= render 'shared/navbar' %>
+    <% unless notice.blank? %>
+      <div class="alert alert-info alert-dismissable alert-fixed">
+        <%= notice %>
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      </div>
+    <% end %>
+    <% unless alert.blank? %>
+      <div class="alert alert-danger alert-dismissable alert-fixed">
+        <%= alert %>
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      </div>
+    <% end %>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>

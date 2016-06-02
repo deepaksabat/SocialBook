@@ -1,0 +1,20 @@
+<div id="comment-<%= comment.id %>">
+  <div class="info">
+    <%= render 'shared/avatar', user: comment.user %>
+    <h4 class="name"><%= comment.user.name %></h4>
+  </div>
+  <div class="content">
+    <div class="row">
+      <span class="text"><%= comment.comment_html %></span>
+    </div>
+    <div class="pull-right">
+      <% if belongs_to_user?(comment) %>
+        <%= link_to comment_path(comment), method: :delete, class: 'btn btn-danger btn-sm', remote: true do %>
+          <% fa_icon 'trash' %>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <br>
+  <hr>
+</div>
