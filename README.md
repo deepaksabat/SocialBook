@@ -2,7 +2,7 @@
 
 SocialBookis an open source social networking platform written in Ruby on Rails. 
 
-Do you want to see it in action? Here is a working version deployed to heroku [http://socifyapp.herokuapp.com](http://socifyapp.herokuapp.com)
+
 
 ### What it uses?
 
@@ -17,8 +17,8 @@ Do you want to see it in action? Here is a working version deployed to heroku [h
 To set it up on your local machine here is what you need to do. Install Ruby & Rails. Clone this repo using the following command:
   
 ```
-git clone https://github.com/sudharti/socify
-cd socify
+git clone https://github.com/deepaksabat/SocialBook
+cd SocialBook
 ```
 Then resolve dependencies using bundler:
 
@@ -45,10 +45,9 @@ To test the app with mock data by running the following rake task:
 rake fill:data
 ```
 
-This will create records with values from faker & populator gems. Also here are the test user credentials:
 
-* email: test@socify.com
-* password: password
+
+
 
 ### Screenshots
 ![index](https://cloud.githubusercontent.com/assets/1825853/8845551/daa4d51c-30e5-11e5-8d65-171a06fa31e2.png)
@@ -64,8 +63,4 @@ This will create records with values from faker & populator gems. Also here are 
 * Make changes to code
 * Send Pull Request
 
-### Issues
-If you find any issue with the app please do raise an issue here https://github.com/sudharti/socify/issues
 
-### License
-This project is Licensed under the [GNU GPL V2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html). See  [LICENSE](https://github.com/sudharti/socify/blob/master/LICENSE) for more info.
