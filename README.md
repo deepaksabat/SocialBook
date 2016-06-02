@@ -45,7 +45,12 @@ To test the app with mock data by running the following rake task:
 rake fill:data
 ```
 
-
+### Screenshots
+![index](http://s33.postimg.org/oe6ovz0kv/Screenshot_from_2016_06_02_15_30_38.png)
+![home](http://s33.postimg.org/izr02nl4f/Screenshot_from_2016_06_02_15_28_10.png)
+![profile](http://s33.postimg.org/jonql20mn/Screenshot_from_2016_06_02_15_29_13.png)
+![post](http://s33.postimg.org/5hv4ncjhr/Screenshot_from_2016_06_02_15_28_56.png)
+![find_friends](http://s33.postimg.org/jzsseprqn/Screenshot_from_2016_06_02_15_29_40.png)
 
 
 
